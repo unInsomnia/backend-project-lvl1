@@ -9,3 +9,7 @@
 ### Github Actions
 
 ![make lint](https://github.com/unInsomnia/backend-project-lvl1/blob/main/.github/workflows/makeLint.yml/badge.svg)
+
+### Asciinema
+
+https://asciinema.org/a/wFmtKK042OjGBRLoUE08jomzB
