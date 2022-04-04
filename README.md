@@ -12,4 +12,4 @@
 
 ### Asciinema
 
-https://asciinema.org/a/wFmtKK042OjGBRLoUE08jomzB
+<a href="https://asciinema.org/a/wFmtKK042OjGBRLoUE08jomzB" target="_blank"><img src="https://asciinema.org/a/wFmtKK042OjGBRLoUE08jomzB.svg" /></a>
