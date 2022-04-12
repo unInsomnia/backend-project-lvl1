@@ -4,5 +4,7 @@
 [![make lint](https://github.com/unInsomnia/backend-project-lvl1/actions/workflows/makelint.yml/badge.svg)](https://github.com/unInsomnia/backend-project-lvl1/actions/workflows/makelint.yml)
 
 # Asciinemas
-
-<a href="https://asciinema.org/a/wFmtKK042OjGBRLoUE08jomzB" target="_blank"><img src="https://asciinema.org/a/wFmtKK042OjGBRLoUE08jomzB.svg" /></a>
+### Brain-even game
+<a href="https://asciinema.org/a/grNm5YmD43KuIzgQHYxUArp8m" target="_blank"><img src="https://asciinema.org/a/grNm5YmD43KuIzgQHYxUArp8m.svg" /></a>
+### Brain-calc game
+<a href="https://asciinema.org/a/UqyokxyUFINpODRAKmZCbtt44" target="_blank"><img src="https://asciinema.org/a/UqyokxyUFINpODRAKmZCbtt44.svg" /></a>

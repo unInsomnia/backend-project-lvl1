@@ -1,7 +1,4 @@
 #!/usr/bin/env node
-import userName from '../src/cli.js';
-import gameEven from '../src/gameEven.js';
-
-console.log(`Hello, ${userName}!`);
+import gameEven from '../games/gameEven.js';
 
 console.log(gameEven());
