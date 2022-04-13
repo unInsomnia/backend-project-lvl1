@@ -8,3 +8,7 @@
 <a href="https://asciinema.org/a/grNm5YmD43KuIzgQHYxUArp8m" target="_blank"><img src="https://asciinema.org/a/grNm5YmD43KuIzgQHYxUArp8m.svg" /></a>
 ### Brain-calc game
 <a href="https://asciinema.org/a/UqyokxyUFINpODRAKmZCbtt44" target="_blank"><img src="https://asciinema.org/a/UqyokxyUFINpODRAKmZCbtt44.svg" /></a>
+### Brain-gcd game
+<a href="https://asciinema.org/a/jioYGZzMC49MVjcpVbRpdEwx3" target="_blank"><img src="https://asciinema.org/a/jioYGZzMC49MVjcpVbRpdEwx3.svg" /></a>
+### Brain-progression game
+<a href="https://asciinema.org/a/r1VPT5wESceJXq8kFe2QlRY8X" target="_blank"><img src="https://asciinema.org/a/r1VPT5wESceJXq8kFe2QlRY8X.svg" /></a>
