@@ -50,7 +50,7 @@ const gameCalc = () => {
       }
     }
   }
-  return `Congratulation, ${userName}!`;
+  return `Congratulations, ${userName}!`;
 };
 
 export default gameCalc;

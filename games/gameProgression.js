@@ -32,7 +32,7 @@ const gameProgression = () => {
       return `Let's try again, ${userName}!`;
     }
   }
-  return `Congratulation, ${userName}!`;
+  return `Congratulations, ${userName}!`;
 };
 
 export default gameProgression;
