@@ -17,7 +17,7 @@ const gameGcd = () => {
   for (let i = 0; i < rounds; i += 1) {
     const firstNumber = randomNumber(1, 100);
     const secondNumber = randomNumber(1, 100);
-    console.log(`Question ${firstNumber} ${secondNumber}`);
+    console.log(`Question: ${firstNumber} ${secondNumber}`);
     const answerOfUser = readlineSync.question('Your answer: ');
 
     const correctAnswer = greatestDivisor(firstNumber, secondNumber);
