@@ -6,9 +6,9 @@ console.log('What is the result of the expression?');
 
 const gameCalc = () => {
   let correctAnswer;
-  let i = 0;
+  const roundCount = 3;
 
-  while (i < 3) {
+  for (let i = 0; i < roundCount; i += 1) {
     const firstNumber = randomNumber(1, 100);
     const secondNumber = randomNumber(1, 100);
     const mathSymbols = ['+', '-', '*'];
@@ -20,7 +20,6 @@ const gameCalc = () => {
     if (randomSymbol === '+') {
       correctAnswer = firstNumber + secondNumber;
       if (answerOfUser === `${correctAnswer}`) {
-        i += 1;
         console.log('Correct!');
       } else {
         console.log(`'${answerOfUser}' is wrong answer ;(. Correct answer was '${correctAnswer}'`);
@@ -31,7 +30,6 @@ const gameCalc = () => {
     if (randomSymbol === '-') {
       correctAnswer = firstNumber - secondNumber;
       if (answerOfUser === `${correctAnswer}`) {
-        i += 1;
         console.log('Correct!');
       } else {
         console.log(`'${answerOfUser}' is wrong answer ;(. Correct answer was '${correctAnswer}'`);
@@ -42,7 +40,6 @@ const gameCalc = () => {
     if (randomSymbol === '*') {
       correctAnswer = firstNumber * secondNumber;
       if (answerOfUser === `${correctAnswer}`) {
-        i += 1;
         console.log('Correct!');
       } else {
         console.log(`'${answerOfUser}' is wrong answer ;(. Correct answer was '${correctAnswer}'`);

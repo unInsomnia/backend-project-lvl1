@@ -22,7 +22,7 @@ const gameProgression = () => {
     progressionArr[positionOFCorrectAnswer] = '..';
     const questionArr = progressionArr.join(' ');
 
-    console.log(`Question ${questionArr}`);
+    console.log(`Question: ${questionArr}`);
     const answerOfUser = readlineSync.question('Your answer: ');
 
     if (answerOfUser === `${correctAnswer}`) {

@@ -5,9 +5,9 @@ import userName from '../src/cli.js';
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
 const gameEven = () => {
-  let i = 0;
+  const roundCount = 3;
 
-  while (i < 3) { // 3 - это количество раундов
+  for (let i = 0; i < roundCount; i += 1) {
     const thisNumber = randomNumber(1, 100);
     console.log(`Question: ${thisNumber}`);
     const answerOfUser = readlineSync.question('Your answer: ');
@@ -16,7 +16,6 @@ const gameEven = () => {
 
     if (evenOrNonEven === 1) {
       if (answerOfUser === 'no') {
-        i += 1;
         console.log('Correct!');
       } else {
         console.log(`'${answerOfUser}' is wrong answer ;(. Correct answer was 'no'.`);
@@ -26,7 +25,6 @@ const gameEven = () => {
 
     if (evenOrNonEven === 0) {
       if (answerOfUser === 'yes') {
-        i += 1;
         console.log('Correct!');
       } else {
         console.log(`'${answerOfUser}' is wrong answer ;(. Correct answer was 'yes'.`);
